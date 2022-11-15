@@ -1,0 +1,579 @@
+
+/* ESTILO DEL LOGO */
+.App-logo {
+    height: 15vmin;
+    width: 15vmin;
+    align-items: left;
+    justify-content: center;
+    pointer-events: none;
+  }
+  
+  /* ESTILO FONDO DE LA PAGINA PRINCIPAL */
+  .App-header {
+    background-color: #ffffff;
+    max-width: 1550px;
+    width: 100%;
+    min-height: 352vh;
+  }
+  
+  /* ESTILO DEL NAVBAR */
+  .App-footer {
+    background-color: #f9a799;
+    width: 100%;
+    min-height: 15vh;
+  }
+  
+  /* ESTILO FONDO DEL CARRUSEL DE IMAGENES*/
+  .App-body {
+    background-color: #ffffff;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+/* ESTILO DE LAS TARJETAS DE LA PAGINA PRINCIPAL */
+  .App-tarjeta {
+    height: 50vmin;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* ESTILO DEL CONTENEDOR DEL TITULO DISEÑOS */
+  .h1{
+    background-color: #ffc8ad5d;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    height: 7vmin;
+    border-radius: 1vh;
+    font-size: 2pc;
+  }
+  
+  /* ESTILO IMAGEN DE TARJETAS PANTALLA PRINCIPAL*/
+  .App-Gel{
+    height: 30vh;
+    width: 30vh;
+    margin: 25px;
+    pointer-events: none;
+  }
+  
+  /* ESTILO DEL CONTENEDOR DONDE VA DAVIPLATA Y NEQUI */
+  .App-Opago {
+    height: 20vmin;
+    width: 80%;
+    border-radius: 4vh;
+    margin: 0 auto;
+    box-sizing:  border-box;
+    background-color: white;
+    box-shadow: 0 5px 10px #ffc8ad;
+    text-align: center;
+    font-size: 2pc;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap:  2rem 2rem;
+    color: black;
+  }
+  
+  /* ESTILO BOTONES DE DAVIPLATA Y NEQUI */
+  .bton{
+    background-color: white;
+    border: #f05993;
+    color: black;
+    font-size: 1.2pc;
+    border-radius: 2vh;
+    box-sizing:  border-box;
+    box-shadow: 0 5px 10px #a13c0a;
+  }
+  
+    /* ESTILO MODAL DE DAVIPLATA Y NEQUI */
+  .Modal{
+    background-color: white;
+    color: black;
+    border-radius: 1vh;
+    margin-left: -40%;
+    height: 80vh;
+    width: 900px;
+  }
+
+   /*ESTILOS IMAGENES DEL CARRUSEL*/
+  .Img-carrusel {
+    height: 40vh;
+    width: 80vh;
+    align-items: left;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+  /*ESTILOS DE LOS MODALES*/
+  .App-logo2 {
+    height: 10vmin;
+    width: 10vmin;
+    align-items: left;
+    justify-content: left;
+    pointer-events: none;
+  }
+
+  /*ESTILO TITULO MAPE BEAUTY DE CADA VISTA*/
+  .h3{
+    text-align:center;
+    font-size: 1,5pc; 
+  }
+
+  
+  /* -------------------------------------------MODAL EQUIPO DE TRABAJO-------------------------------------- */
+
+  /* ESTILO DE LA CABECERA */
+  .hed{
+    background-color: #ffc8ad;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 15vh;
+    width: 1309px;
+  }
+
+  /* ESTILO DEL NOMBRE Y PROFESION EMPLEADO */
+  .App-Prof {
+    height: 10vmin;
+    width: 10vmin;
+    align-items: left;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+   /* ESTILO PARA CENTRAR NOMBRES Y IMGS */
+   .p1{
+    text-align:center;
+    font-size: 1pc;
+  }
+  
+  /* ESTILO DEL FONDO*/
+  .bd1{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 70vh;
+    width: 1309px;
+    display: grid;
+  }
+  
+  /* ESTILO BOTON VOLVER */
+  .btn1{
+    background-color: #f9a799;
+    border-color: #f9a799;
+    color: black;
+  }
+  
+  /* ESTILO PIE DE PAGINA */
+  .fd1{
+    background-color: #ffc8ad;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+  
+
+  /* ----------------------------------------------MODAL DE LOGIN-------------------------------------- */
+  
+  /* ESTILO DE CABECERA */
+  .hed1{
+    background-color: #f9a799;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 15vh;
+    width: 1309px;
+  }
+  
+  /* ESTILO DE FONDO DONDE VA CORREO Y PASSWORD*/
+  .bd56{
+    background-color: #f8d28b;
+    color: black;
+    display: grid;
+    margin-left: 35%;
+    height: 65vh;
+    width: 350px;
+  }
+
+   /* ESTILO DE 1MER FONDO */
+  .bdy45{
+    background-color: white;
+    color: black;
+    display: grid;
+    margin-left: -83%;
+    height: 70vh;
+    width: 1309px;
+  }
+
+  /* ESTILO DE BOTONES VOLVER E INGRESAR*/
+  .botn{
+    background-color: rgb(230, 215, 215);
+    border-color: #5a5656;
+    color: black;
+    height: 6vmin;
+    width: 100%;
+  }
+  
+  /* ESTILO DE BOTON CREAR CUENTA*/
+  .btn2{
+    background-color: #f8d28b;
+    border-color: #f8d28b;
+    color: black;
+  }
+
+  /* ESTILO PIE PAGINA*/
+  .f1{
+    background-color: #f9a799;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+  
+  
+/* ----------------------------------------------MODAL DE SERVICIOS-------------------------------------- */
+  
+    
+/* ----------------------------------------------MODAL DE MANICURE-------------------------------------- */
+
+  /* ESTILO CABECERA*/
+  .Cabecera1{
+    background-color: #f9a799;
+    border-color: #f9a799;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 15vh;
+    width: 1309px;
+  }
+
+   /* ESTILO BOTON SERVICIO/MANICURE*/
+  .btnSM{
+    background-color: #54517a00;
+    border-color: #54517a00;
+    color: white;
+  }
+  
+   /* ESTILO TITULOS UÑAS (GEL-ACRILICAS-NATURAL)*/
+  .Titulo{
+    background-color: #ffda9e;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 6vh;
+    width: 1309px;
+    
+  }
+  /* ESTILO DE FONDO UÑAS EN GEL Y NATURALES*/
+  .B-gel-normal{
+    background-color: white;
+    border-color: #ffc8ad;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 33vh;
+    width: 1309px;
+  }
+  /* ESTILO DE FONDO UÑAS ACRILICAS*/
+  .B-acrilica{
+    background-color: #f9a799;
+    border-color: #ffc8ad;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 33vh;
+    width: 1309px;
+  }
+  
+  /* ESTILO IMAGENES DE TARJETAS*/
+  .Img-Manicure {
+    height: 12vh;
+    width: 18vh;
+    pointer-events: none;
+  }
+
+  /* ESTILO DE TARJETA UÑAS GEL*/
+  .tarjeta2 {
+    height: -8vmin;
+    width: -10%;
+    background: #efb810;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+  
+  /* ESTILO DE TARJETA UÑAS ACRILICAS*/
+  .tarjeta3 {
+    height: -8vmin;
+    width: -10%;
+    background: #6cbdb5;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+  
+  /* ESTILO DE TARJETA UÑAS NATURALES*/
+  .tarjeta4 {
+    height: -8vmin;
+    width: -10%;
+    background: #a6ad3c;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+  
+  /* ESTILO DE BOTONES DE TARJETAS*/
+  .btnt{
+    background-color: #fffec8;
+    color: black;
+    display: grid;
+    width: 20;
+    height: 33px;
+    text-align: center;
+    border: rgb(63, 59, 59);
+    border-radius: 1vh;
+  }
+
+  /* ESTILOS DE BOTON VOLVER DE MANICURE Y PEDICURE */
+  .btn3{
+    background-color: #f9a799;
+    border-color: #f9a799;
+    color: black;
+  }
+  
+  /* ESTILO PIE DE PAGINA*/
+  .Footr-Mani{
+    background-color: #f9a799;
+    border-color: black;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+
+  
+/* ----------------------------------------------MODAL DE PEDICURE-------------------------------------- */
+
+  /* ESTILO DE CABECERA*/
+  .Cabecera2{
+    background-color: white;
+    border-color: #f9a799;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 15vh;
+    width: 1309px;
+  }
+
+  /* ESTILO BONTON SERVICIOS/PEDICURE*/
+  .btnSP{
+    background-color: #54517a00;
+    border-color: #54517a00;
+    color: white;
+  }
+
+  /* ESTILO DEL FONDO1 */
+  .B-Pedicure{
+    background-color: #f9a799;
+    border-color: #ffc8ad;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 33vh;
+    width: 1309px;
+  }
+
+  /* ESTILO DE FONDO2 */
+  .B-Pedicure2{
+    background-color: white;
+    border-color: #ffc8ad;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 33vh;
+    width: 1309px;
+  }
+
+  /* ESTILO DE TARJETA FONDO1*/
+  .tarjeta5 {
+    height: -8vmin;
+    width: -10%;
+    background: #fedc57;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+  
+  /* ESTILO DE TARJETA FONDO2*/
+  .tarjeta6 {
+    height: -8vmin;
+    width: -10%;
+    background: #7cf49a;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+
+  /* ESTILO IMAGENES DE TARJETAS*/
+  .Img-Pedicure {
+    height: 12vh;
+    width: 18vh;
+    pointer-events: none;
+  }
+
+  /* ESTILO DE BOTONES DE TARJETAS*/
+  .btnP{
+    background-color: #faefc2;
+    border: rgb(63, 59, 59);
+    border-radius: 1vh;
+  }
+
+  /* ESTILO DE TARJETAS*/
+  .tarjetap1 {
+    height: 27vmin;
+    width: -10%;
+    display: grid;
+    background: #efb810;
+    margin: 0 auto;
+    border-radius: 1vh;
+  }
+
+  /* ESTILO PIE DE PAGINA*/
+  .Footr-Pedi{
+    background-color: #f9a799;
+    border-color: black;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+
+
+/* ----------------------------------------------MODAL DE CITA-------------------------------------- */
+
+/* ESTILO DE CABECERA */
+.hed2{
+  background-color: #f9a799;;
+  border-color: rgb(182, 180, 180);
+  color: black;
+  display: flex;
+  margin-left: -83%;
+  height: 15vh;
+  width: 1309px;
+}
+
+  /* ESTILO DEL FONDO*/
+  .bd2{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 70vh;
+    width: 1309px;
+    display: grid;
+  }
+  
+  /* ESTILO BOTON VOLVER */
+  .botn1{
+    background-color: #f9a799;
+    border-color: #f9a799;
+    color: black;
+  }
+  
+  /* ESTILO PIE DE PAGINA */
+  .fod1{
+    background-color: #f9a799;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+
+
+/* ----------------------------------------------MODAL DE CONTACTO-------------------------------------- */
+
+/* ESTILO DE CABECERA */
+.hed3{
+  background-color: #f9a799;;
+  border-color: rgb(182, 180, 180);
+  color: black;
+  display: flex;
+  margin-left: -83%;
+  height: 15vh;
+  width: 1309px;
+}
+
+  /* ESTILO DEL FONDO*/
+  .bd3{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 70vh;
+    width: 1309px;
+    display: grid;
+  }
+  
+  /* ESTILO BOTON VOLVER */
+  .botn2{
+    background-color: #f9a799;
+    border-color: #f9a799;
+    color: black;
+  }
+  
+  /* ESTILO PIE DE PAGINA */
+  .fod2{
+    background-color: #f9a799;
+    border-color: rgb(182, 180, 180);
+    color: black;
+    display: flex;
+    margin-left: -83%;
+    height: 10vh;
+    width: 1309px;
+  }
+
+  .body-ver{
+   
+    background-color: #626277de;
+    border-radius: 1vh;
+    margin-left: -40%;
+    height: 80vh;
+    width: 900px;
+  }
+
+  .Img-ver {
+    border-radius: 1vh;
+    height: 75vh;
+    width: 133vh;
+    pointer-events: none;
+  }
+
+  .boton1{
+    background-color: #bef202;
+    border-color: rgb(20, 19, 19);
+    border-radius: 2vh;
+    color: black;
+    height: 60px;
+    width: 1000px;
+  }
+
+
+  .App-link {
+    color: #61dafb;
+  }
+
+
+  
+  
+   
+  
