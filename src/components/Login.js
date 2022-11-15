@@ -1,12 +1,12 @@
-import React, { useState, useTransition } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [msg, setMsg] = useState('');
-    const history = useNavigate();
+    const history = useHistory();
 
     const Auth = async (e) => {
         e.preventDefault();
